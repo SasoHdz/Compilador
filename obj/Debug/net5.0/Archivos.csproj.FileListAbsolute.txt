@@ -1,0 +1,16 @@
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\obj\Debug\net5.0\Archivos.csprojAssemblyReference.cache
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\obj\Debug\net5.0\Archivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\obj\Debug\net5.0\Archivos.AssemblyInfoInputs.cache
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\obj\Debug\net5.0\Archivos.AssemblyInfo.cs
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\obj\Debug\net5.0\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\bin\Debug\net5.0\Archivos.exe
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\bin\Debug\net5.0\Archivos.deps.json
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\bin\Debug\net5.0\Archivos.runtimeconfig.json
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\bin\Debug\net5.0\Archivos.runtimeconfig.dev.json
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\bin\Debug\net5.0\Archivos.dll
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\bin\Debug\net5.0\ref\Archivos.dll
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\bin\Debug\net5.0\Archivos.pdb
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\obj\Debug\net5.0\Archivos.dll
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\obj\Debug\net5.0\ref\Archivos.dll
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\obj\Debug\net5.0\Archivos.pdb
+C:\Users\isaac\Documents\LenguajesYAutomatasI\Proyectos\Archivos\obj\Debug\net5.0\Archivos.genruntimeconfig.cache
