@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Archivos
 {
-    internal class Lexico0
+    internal class Lexico0 : IDisposable
     {
         private StreamReader archivo;
        private StreamWriter bitacora;
@@ -18,14 +18,17 @@ namespace Archivos
                bitacora.WriteLine("Archivo: Prueba.txt");
                bitacora.WriteLine("Directorio: C:\\Archivos");   
            }
-           else  Console.WriteLine("El archivo prueba.txt no existe"); 
+           else {
+               throw new Exception("El archivo prueba.txt no existe");
+           }  
        }
 
-        ~Lexico0()
+       // ~Lexico0()
+        public void Dispose()
         {
-            Console.WriteLine("Compiladon prueba.txt ");
+            Console.WriteLine("Compilandon prueba.txt ");
             CerrarArchivos();
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         private void CerrarArchivos(){
@@ -36,6 +39,12 @@ namespace Archivos
         public void Display(){
             while(!archivo.EndOfStream){
                 Console.Write((char)archivo.Read());
+            }
+        }
+
+        public void Load(){
+            while(!archivo.EndOfStream){
+                bitacora.Write((char)archivo.Read());
             }
         }
 

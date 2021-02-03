@@ -1,4 +1,5 @@
-﻿
+﻿using  System;
+
 namespace Archivos
 {
     class Program
@@ -6,8 +7,10 @@ namespace Archivos
         static void Main(string[] args)
         {
             try {
-                Lexico0 l = new Lexico0();
-                l.Display();
+                using(Lexico0 l = new Lexico0()){//Ejecuta rl metodo dispose (destrcutor)
+                    l.Load();
+                }
+                
                 
             }
             catch(Exception e){
