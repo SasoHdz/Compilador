@@ -24,9 +24,9 @@ namespace Archivos
        }
 
        // ~Lexico0()
-        public void Dispose()
+        public void Dispose() //Desctructor 
         {
-            Console.WriteLine("Compilandon prueba.txt ");
+            Console.WriteLine("\nCompilandon prueba.txt ");
             CerrarArchivos();
             //Console.ReadKey();
         }
@@ -45,6 +45,20 @@ namespace Archivos
         public void Load(){
             while(!archivo.EndOfStream){
                 bitacora.Write((char)archivo.Read());
+            }
+        }
+
+        public void Encrypt(){
+
+            while(!archivo.EndOfStream){
+                char c;                
+                if(char.IsLetter(c = (char)(archivo.Read()))){
+                    bitacora.Write((char)c+1);
+                }
+                else{
+                    bitacora.Write(c);
+                }
+                
             }
         }
 
