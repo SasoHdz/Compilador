@@ -5,8 +5,14 @@ namespace Archivos
     {
         static void Main(string[] args)
         {
-            Lexico0 l = new Lexico0();
-            l.Display();
+            try {
+                Lexico0 l = new Lexico0();
+                l.Display();
+                
+            }
+            catch(Exception e){
+                    Console.WriteLine(e.Message);
+            }
         }
     }
 
