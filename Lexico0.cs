@@ -53,7 +53,7 @@ namespace Archivos
             while(!archivo.EndOfStream){
                 char c;                
                 if(char.IsLetter(c = (char)(archivo.Read()))){
-                    bitacora.Write((char)c+1);
+                    bitacora.Write((char)(c+1));
                 }
                 else{
                     bitacora.Write(c);
