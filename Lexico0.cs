@@ -62,6 +62,38 @@ namespace Archivos
             }
         }
 
+        public void Palabra(){
+
+            char c;
+            string palabra = "";
+
+            while(char.IsWhiteSpace(c = (char)archivo.Read()))
+            {
+                //Busca el primer caracter válido
+            }
+                                
+            if(char.IsLetter(c))
+            {
+                //Encontro una lentra
+                palabra+=c;
+
+                 while(char.IsLetter(c = (char)archivo.Read()))
+                 {
+                     //Concatenar más letras para formar la palabra
+                     palabra+=c;
+                 }
+            }
+           
+            if(palabra != "")
+            {
+                bitacora.WriteLine("Palabra = "+palabra);
+            }     
+        }
+
+        public bool FinDeArchivo(){
+            return archivo.EndOfStream;
+        }
+
     }
 } 
 

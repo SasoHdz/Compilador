@@ -8,7 +8,10 @@ namespace Archivos
         {
             try {
                 using(Lexico0 l = new Lexico0()){//Ejecuta rl metodo dispose (destrcutor)
-                    l.Encrypt();
+                    while(!l.FinDeArchivo())
+                    {
+                        l.Palabra();
+                    }
                 } 
             }
             catch(Exception e){
