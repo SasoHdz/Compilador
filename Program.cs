@@ -8,10 +8,12 @@ namespace Archivos
         {
             try {
                 using(Lexico0 l = new Lexico0()){//Ejecuta rl metodo dispose (destrcutor)
-                    while(!l.FinDeArchivo())
-                    {
-                        l.Palabra();
-                    }
+                    // while(!l.FinDeArchivo())
+                    // {
+                    //     l.Token();
+                    // }
+
+                    l.Mosca('x');
                 } 
             }
             catch(Exception e){
